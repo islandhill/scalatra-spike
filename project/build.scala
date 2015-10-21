@@ -26,6 +26,7 @@ object ScalatraspikeBuild extends Build {
         "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
         "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test",
+        "org.scalatra" %% "scalatra-scalatest" % "2.4.0.RC1" % "test",
         "ch.qos.logback" % "logback-classic" % "1.1.2" % "runtime",
         "org.scalatra" %% "scalatra-json" % "2.4.0.RC3",
         "org.json4s"   %% "json4s-jackson" % "3.3.0",
